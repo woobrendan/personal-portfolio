@@ -1,5 +1,4 @@
 import './App.css';
-import IconLinks from './components/Icon_links';
 import Sidebar from './components/Sidebar';
 
 function App() {
