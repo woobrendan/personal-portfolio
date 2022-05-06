@@ -6,7 +6,6 @@ function App() {
     <div className="App">
       <h1>Brendan Woo</h1>
       <h3>Full Stack Developer</h3>
-      {/* <IconLinks /> */}
       <Sidebar />
       <div id="Contact">
         Email Me
