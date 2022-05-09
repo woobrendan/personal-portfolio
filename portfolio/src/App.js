@@ -9,9 +9,9 @@ function App() {
       <h3>Full Stack Developer</h3>
       <Sidebar />
       <AboutMe />
-      <div id="Contact">
+      {/* <div id="Contact">
         Email Me
-      </div>
+      </div> */}
     </div>
   );
 }
