@@ -1,11 +1,18 @@
-.MuiPaper-root {
-  background-color: rgba(63, 59, 59, 0.283) !important;
-  color: white !important;
-  border: 1px solid white;
+.Card-list {
+  display: flex;
+  justify-content: space-around;
+  .MuiPaper-root {
+    background-color: rgba(63, 59, 59, 0.283) !important;
+    color: white !important;
+    border: 1px solid white;
+    width: 250px;
+    height: 250px;
 
-  &:hover {
-    border: 1px solid gold;
-    color: gold !important;
+    &:hover {
+      border: 1px solid gold;
+      color: gold !important;
+      background-color: rgba(101, 98, 98, 0.906) !important;
+    }
   }
 }
 
@@ -16,11 +23,25 @@
 }
 
 .MuiCardContent-root {
+  p {
+    color: white !important;
+
+    &:hover {
+      color: gold !important;
+    }
+  }
   ul {
     padding-left: 0px;
 
+    .school {
+      font-weight: bold;
+      font-size: 17px;
+    }
+
     li {
       list-style: none;
+      padding-bottom: 7px;
+      font-size: 12px;
     }
   }
 }
