@@ -4,6 +4,7 @@ import CardContent from '@mui/material/CardContent';
 import '../Styles/about.scss'
 import SchoolIcon from '@mui/icons-material/School';
 import WorkIcon from '@mui/icons-material/Work';
+import BoyIcon from '@mui/icons-material/Boy';
 
 
 
@@ -53,7 +54,7 @@ export default function AboutMe() {
         </div>
         <Card sx={{ maxWidth: 465 }} id="about-description">
             <CardContent >
-              <SchoolIcon />
+              <BoyIcon fontSize="large"/>
               <Typography gutterBottom variant="h4" component="div">
                 Life of Brendan
               </Typography>
