@@ -9,6 +9,16 @@
     color: white !important;
     border: 1px solid white;
     border-radius: 25px;
+
+    &:hover {
+      border: 1px solid gold;
+      color: gold !important;
+      background-color: rgba(101, 98, 98, 0.906) !important;
+
+      p {
+        color: gold !important;
+      }
+    }
   }
 
   .Card-list {
