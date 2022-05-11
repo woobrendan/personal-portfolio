@@ -3,6 +3,8 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import autograph from '../images/Laguna-Autograph.jpg'
+import irb from '../images/IRB.jpeg'
+import tbj from '../images/TBJ.jpeg';
 import '../Styles/experience.scss'
 
 export default function Experience () {
@@ -12,22 +14,56 @@ export default function Experience () {
         Work Experience
       </Typography>
       <Card >
-      <CardMedia
-        component="img"
-        height="140"
-        image={autograph}
-        alt="green iguana"
-      />
-      <CardContent>
-        <Typography gutterBottom variant="h5" component="div">
-          SRO Motorsports America
-        </Typography>
-        <Typography variant="body2" color="text.secondary">
-          Lizards are a widespread group of squamate reptiles, with over 6,000
-          species, ranging across all continents except Antarctica
-        </Typography>
-      </CardContent>
-    </Card>
+        <CardMedia
+          component="img"
+          height="140"
+          image={irb}
+          alt="Immigration Refugee Board of Canada"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            Immigration Refugee Board of Canada
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Lizards are a widespread group of squamate reptiles, with over 6,000
+            species, ranging across all continents except Antarctica
+          </Typography>
+        </CardContent>
+      </Card>
+      <Card >
+        <CardMedia
+          component="img"
+          height="140"
+          image={autograph}
+          alt="Laguna Seca Autograph Session"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            SRO Motorsports America
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Lizards are a widespread group of squamate reptiles, with over 6,000
+            species, ranging across all continents except Antarctica
+          </Typography>
+        </CardContent>
+      </Card>
+      <Card >
+        <CardMedia
+          component="img"
+          height="140"
+          image={tbj}
+          alt="Toronto Blue Jays"
+        />
+        <CardContent>
+          <Typography gutterBottom variant="h5" component="div">
+            Toronto Blue Jays
+          </Typography>
+          <Typography variant="body2" color="text.secondary">
+            Lizards are a widespread group of squamate reptiles, with over 6,000
+            species, ranging across all continents except Antarctica
+          </Typography>
+        </CardContent>
+      </Card>
     </div>
   )
 }
