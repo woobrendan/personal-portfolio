@@ -28,6 +28,10 @@ export default function Experience () {
           <Typography gutterBottom variant="subtitle1" component="div">
             Assistant to Coordinating Member
           </Typography>
+          <div className="work-info">
+            <p>Location: Toronto, ON</p>
+            <p>Sept 2021 - Dec 2021</p>
+          </div>
           <Typography variant="body2" color="text.secondary">
             Lizards are a widespread group of squamate reptiles, with over 6,000
             species, ranging across all continents except Antarctica
@@ -48,6 +52,10 @@ export default function Experience () {
           <Typography gutterBottom variant="subtitle1" component="div">
             Team Relations Coodinator
           </Typography>
+          <div className="work-info">
+            <p>Location: Various, USA</p>
+            <p>May 2014 - Sept 2021</p>
+          </div>
           <Typography variant="body2" color="text.secondary">
             Lizards are a widespread group of squamate reptiles, with over 6,000
             species, ranging across all continents except Antarctica
@@ -74,6 +82,10 @@ export default function Experience () {
           <Typography gutterBottom variant="subtitle1" component="div">
             Warehouse Assistant
           </Typography>
+          <div className="work-info">
+            <p>Location: Toronto, ON</p>
+            <p>Feb 2018 - Nov 2018</p>
+          </div>
           <Typography variant="body2" color="text.secondary">
             Lizards are a widespread group of squamate reptiles, with over 6,000
             species, ranging across all continents except Antarctica
