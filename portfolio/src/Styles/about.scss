@@ -3,6 +3,12 @@
   flex-direction: column;
   align-items: center;
 
+  #About-img {
+    border: 1px solid white;
+    border-radius: 25px;
+    margin: 30px;
+  }
+
   #about-description {
     margin-top: 50px;
     background-color: rgba(63, 59, 59, 0.283) !important;
