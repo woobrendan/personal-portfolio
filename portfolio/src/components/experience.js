@@ -5,6 +5,7 @@ import CardMedia from '@mui/material/CardMedia';
 import autograph from '../images/Laguna-Autograph.jpg'
 import irb from '../images/IRB.jpeg'
 import tbj from '../images/TBJ.jpeg';
+import sro from '../images/sro.jpeg'
 import '../Styles/experience.scss'
 
 export default function Experience () {
@@ -37,8 +38,8 @@ export default function Experience () {
         <CardMedia
           component="img"
           height="140"
-          image={autograph}
-          alt="Laguna Seca Autograph Session"
+          image={sro}
+          alt="SRO Motorsports Group"
         />
         <CardContent>
           <Typography gutterBottom variant="h5" component="div">
@@ -51,6 +52,12 @@ export default function Experience () {
             Lizards are a widespread group of squamate reptiles, with over 6,000
             species, ranging across all continents except Antarctica
           </Typography>
+          <CardMedia
+          component="img"
+          height="140"
+          image={autograph}
+          alt="Laguna Seca Autograph Session"
+        />
         </CardContent>
       </Card>
       <Card >
