@@ -6,9 +6,14 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: white;
+  background: url("./images/gradient-black.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 
-#background-img {
+/* #background-img {
   background: url("./images/gradient-black.jpg") no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -16,7 +21,7 @@ body {
   background-size: cover;
   height: 100vh;
   z-index: -1;
-}
+} */
 
 #root {
   z-index: 1;
