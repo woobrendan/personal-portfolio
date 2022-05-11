@@ -86,10 +86,12 @@ export default function Experience () {
             <p>Location: Toronto, ON</p>
             <p>Feb 2018 - Nov 2018</p>
           </div>
-          <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
-          </Typography>
+          <ul className="job-description-list">
+            <li><span>Coordinated the movement of product, receiving the product and its distribution to various vendor locations throughout the stadium and stores</span>
+            </li>
+            <li><span>Maintained and managed multiple warehouses to ensure cleanliness and inventory accuracy</span></li>
+            <li><span>Re-organized warehouses to a new organizational style leading to better work efficiency</span></li>
+          </ul>
         </CardContent>
       </Card>
     </div>
