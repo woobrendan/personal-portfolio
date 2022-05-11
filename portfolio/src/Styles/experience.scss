@@ -22,4 +22,19 @@
     justify-content: space-around;
     margin: -5px;
   }
+
+  .job-description-list {
+    margin: 20px;
+    li {
+      list-style: square;
+      font-size: 17px;
+      padding-bottom: 10px;
+      text-align: left;
+
+      span {
+        position: relative;
+        left: 20px;
+      }
+    }
+  }
 }
