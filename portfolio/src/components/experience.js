@@ -3,6 +3,7 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import autograph from '../images/Laguna-Autograph.jpg'
+import '../Styles/experience.scss'
 
 export default function Experience () {
   return (
@@ -10,7 +11,7 @@ export default function Experience () {
       <Typography variant="h3" gutterBottom component="div">
         Work Experience
       </Typography>
-      <Card sx={{ maxWidth: 345 }}>
+      <Card >
       <CardMedia
         component="img"
         height="140"
