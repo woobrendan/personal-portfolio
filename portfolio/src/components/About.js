@@ -5,9 +5,8 @@ import '../Styles/about.scss'
 import SchoolIcon from '@mui/icons-material/School';
 import WorkIcon from '@mui/icons-material/Work';
 import BoyIcon from '@mui/icons-material/Boy';
-
-
-
+import Box from '@mui/material/Box';
+import pwc from '../images/PWC.jpg'
 
 export default function AboutMe() {
   return (
@@ -16,6 +15,16 @@ export default function AboutMe() {
         <Typography variant="h3" gutterBottom component="div">
           About Me
         </Typography>
+        <Box
+        component="img"
+        sx={{
+          width: 300,
+          height: 300,
+        }}
+        alt="SRO Portrait"
+        src={pwc}
+        id="About-img"
+      />
         <div className="Card-list">
           <Card sx={{ maxWidth: 345 }}>
             <CardContent>
