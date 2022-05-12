@@ -17,7 +17,6 @@ export default function Experience () {
       <Card >
         <CardMedia
           component="img"
-          height="140"
           image={irb}
           alt="Immigration Refugee Board of Canada"
         />
@@ -48,7 +47,6 @@ export default function Experience () {
       <Card >
         <CardMedia
           component="img"
-          height="140"
           image={sro}
           alt="SRO Motorsports Group"
         />
@@ -76,7 +74,6 @@ export default function Experience () {
           </ul>
           <CardMedia
           component="img"
-          height="140"
           image={autograph}
           alt="Laguna Seca Autograph Session"
         />
@@ -85,7 +82,6 @@ export default function Experience () {
       <Card >
         <CardMedia
           component="img"
-          height="135"
           image={tbj}
           alt="Toronto Blue Jays"
         />
