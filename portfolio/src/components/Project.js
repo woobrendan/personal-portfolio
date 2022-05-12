@@ -4,7 +4,6 @@ import CardContent from '@mui/material/CardContent';
 import CardMedia from '@mui/material/CardMedia';
 import Button from '@mui/material/Button';
 import Typography from '@mui/material/Typography';
-import Stack from '@mui/material/Stack';
 import GitHubIcon from '@mui/icons-material/GitHub';
  
  function Project(props) {
@@ -26,11 +25,9 @@ import GitHubIcon from '@mui/icons-material/GitHub';
           </Typography>
         </CardContent>
         <CardActions>
-        <Stack direction="row" spacing={2}>
-          <Button variant="outlined" startIcon={<GitHubIcon />}>
-            Delete
+          <Button variant="outlined" href={props.link} startIcon={<GitHubIcon />}>
+            Code
           </Button>
-        </Stack>
         </CardActions>
       </Card>
     </div>
