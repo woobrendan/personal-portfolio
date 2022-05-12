@@ -10,10 +10,9 @@ import '../Styles/project.scss'
  function Project(props) {
    return (
     <div className="project-container">
-       <Card>
+      <Card>
         <CardMedia
           component="img"
-          height="140"
           image={props.project.gif}
           alt={props.project.name}
         />
