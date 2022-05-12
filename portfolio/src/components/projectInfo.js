@@ -1,4 +1,6 @@
-const projects = [
+import appointment from '../images/Add_appointment.gif';
+
+export const projects = [
   {
     name: "Work It Out",
     gif: "placeholder",
@@ -15,11 +17,11 @@ const projects = [
   },
   {
     name: "Scheduler",
-    gif: "placeholder",
+    gif: appointment,
     link: "https://github.com/woobrendan/scheduler",
     description: "Interview Scheduler is an introductory to React project. This project works to get bootcamp students comfortable with using React to develop interactive UI's. Creating various components and passing props, state and functions throughout to create a seamless user environment. Interview Scheduler is the first introduction to different testing frameworks such as Jest and Cypress. Throughout we look at the importance of testing and looking to have efficient coverage for our functions and applications",
     frameworks: "ReactJS, PostreSQL, Jest, Cypress, Storybook"
   },
 ]
 
-module.exports = {projects}
+// module.exports = {projects}
