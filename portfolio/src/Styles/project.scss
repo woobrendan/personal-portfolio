@@ -16,12 +16,17 @@
         border: 1px solid gold;
         color: gold;
       }
+
+      .MuiTypography-h5 {
+        background: gold;
+        color: black;
+      }
     }
 
     .MuiPaper-root {
       background-color: rgba(63, 59, 59, 0.283) !important;
       color: white !important;
-      border: 1px solid white;
+      border: 1px solid gold;
       border-radius: 25px;
       width: 80%;
       margin: 15px;
