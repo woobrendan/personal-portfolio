@@ -11,6 +11,10 @@
     border-radius: 25px;
     width: 80%;
     margin: 15px;
+
+    &:hover {
+      background-color: rgba(101, 98, 98, 0.906) !important;
+    }
   }
 
   .MuiTypography-subtitle1 {
