@@ -1,4 +1,5 @@
 import appointment from '../images/Add_appointment.gif';
+import jungle from '../images/Jungle_Order.gif';
 
 export const projects = [
   {
@@ -10,7 +11,7 @@ export const projects = [
   },
   {
     name: "Jungle Rails",
-    gif: "placeholder",
+    gif: jungle,
     link: "https://github.com/woobrendan/Work-It-Out",
     description: "A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example. Students are dropped into a pre-built app using a new Ruby language and asked to replicate real-world scenarios such as adding features, fixing bugs and adding testing to an existing app.",
     frameworks: "Ruby on Rails, PostreSQL, Active Record, Rspec"
