@@ -7,6 +7,17 @@
   .project-container {
     // width: 80%;
 
+    .MuiCard-root {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      .MuiButton-root {
+        border: 1px solid gold;
+        color: gold;
+      }
+    }
+
     .MuiPaper-root {
       background-color: rgba(63, 59, 59, 0.283) !important;
       color: white !important;
