@@ -2,6 +2,7 @@ import './App.css';
 import AboutMe from './components/About';
 import Experience from './components/experience';
 import Sidebar from './components/Sidebar';
+import ProjectList from './components/ProjectList';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <Sidebar />
       <AboutMe />
       <Experience />
+      <ProjectList />
       {/* <div id="Contact">
         Email Me
       </div> */}
