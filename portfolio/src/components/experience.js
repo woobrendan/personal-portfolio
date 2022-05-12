@@ -32,10 +32,17 @@ export default function Experience () {
             <p>Location: Toronto, ON</p>
             <p>Sept 2021 - Dec 2021</p>
           </div>
-          <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
-          </Typography>
+          <ul className="job-description-list">
+            <li><span>
+              Worked a casual contract supporting multiple teams and managers with administrative duties such as  facilitation of official documents, taking meeting notes and manage member absence line
+            </span></li>
+            <li><span>
+              Coordinated manager's schedules, ensuring days and meetings are organized
+            </span></li>
+            <li><span>
+              Facilitated member hearing schedules and caseloads, updating HR software as required
+            </span></li>
+          </ul>
         </CardContent>
       </Card>
       <Card >
@@ -56,10 +63,17 @@ export default function Experience () {
             <p>Location: Various, USA</p>
             <p>May 2014 - Sept 2021</p>
           </div>
-          <Typography variant="body2" color="text.secondary">
-            Lizards are a widespread group of squamate reptiles, with over 6,000
-            species, ranging across all continents except Antarctica
-          </Typography>
+          <ul className="job-description-list">
+            <li><span>
+              Advised on marketing plans for partnership activations, such as branding, car parades, autograph sessions, and more, improving the overall fan experience
+            </span></li>
+            <li><span>
+              Maintained communication with clients and partners, whilst ensuring the success of events by planning and managing operations
+            </span></li>
+            <li><span>
+              Prepared various official documents and coordinate their distribution to constituents
+            </span></li>
+          </ul>
           <CardMedia
           component="img"
           height="140"
@@ -71,7 +85,7 @@ export default function Experience () {
       <Card >
         <CardMedia
           component="img"
-          height="140"
+          height="135"
           image={tbj}
           alt="Toronto Blue Jays"
         />
@@ -87,10 +101,15 @@ export default function Experience () {
             <p>Feb 2018 - Nov 2018</p>
           </div>
           <ul className="job-description-list">
-            <li><span>Coordinated the movement of product, receiving the product and its distribution to various vendor locations throughout the stadium and stores</span>
-            </li>
-            <li><span>Maintained and managed multiple warehouses to ensure cleanliness and inventory accuracy</span></li>
-            <li><span>Re-organized warehouses to a new organizational style leading to better work efficiency</span></li>
+            <li><span>
+              Coordinated the movement of product, receiving the product and its distribution to various vendor locations throughout the stadium and stores
+            </span></li>
+            <li><span>
+              Maintained and managed multiple warehouses to ensure cleanliness and inventory accuracy
+            </span></li>
+            <li><span>
+              Re-organized warehouses to a new organizational style leading to better work efficiency
+            </span></li>
           </ul>
         </CardContent>
       </Card>
