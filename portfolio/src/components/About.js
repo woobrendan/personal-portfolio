@@ -10,7 +10,7 @@ import pwc from '../images/PWC.jpg'
 
 export default function AboutMe() {
   return (
-    <div className="About-container">
+    <div id="About-container">
       <div className="About-cards">
         <Typography variant="h3" gutterBottom component="div">
           About Me
