@@ -13,9 +13,9 @@ function App() {
       <AboutMe />
       <Experience />
       <ProjectList />
-      {/* <div id="Contact">
+      <div id="Contact">
         Email Me
-      </div> */}
+      </div>
     </div>
   );
 }
