@@ -18,16 +18,12 @@
 
     a {
       font-size: 22px;
-      color: #4d4d4e;
+      color: #ffffff;
       display: block;
       line-height: 51px;
       height: 51px;
       position: relative;
       text-decoration: none;
-
-      svg {
-        color: #ffffff;
-      }
 
       i {
         transition: all 0.3s ease-out;
@@ -35,6 +31,42 @@
 
       &:hover {
         color: gold;
+
+        svg {
+          opacity: 0;
+        }
+
+        &:after {
+          opacity: 1;
+        }
+      }
+      &:after {
+        content: "";
+        font-size: 9px;
+        letter-spacing: 2px;
+        position: absolute;
+        bottom: 0;
+        display: block;
+        width: 100%;
+        text-align: center;
+        opacity: 0;
+        transition: all 0.3s ease-out;
+      }
+    }
+
+    a.contact-icon {
+      &:after {
+        content: "CONTACT";
+      }
+    }
+    a.project-icon {
+      &:after {
+        content: "PROJECTS";
+      }
+    }
+    a.active {
+      svg {
+        color: #ffd700;
       }
     }
     ul {
