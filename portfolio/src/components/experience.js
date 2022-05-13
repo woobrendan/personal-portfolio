@@ -10,7 +10,7 @@ import '../Styles/experience.scss'
 
 export default function Experience () {
   return (
-    <div className="experience-container">
+    <div className="experience-container" id="Experience">
       <Typography variant="h3" gutterBottom component="div">
         Work Experience
       </Typography>
