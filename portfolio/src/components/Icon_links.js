@@ -1,4 +1,3 @@
-import '../Styles/icon-list.scss'
 import {faLinkedin, faGithub} from '@fortawesome/free-brands-svg-icons'
 import {FontAwesomeIcon} from '@fortawesome/react-fontawesome'
 import { library } from "@fortawesome/fontawesome-svg-core";
@@ -44,12 +43,12 @@ export default function IconLinks() {
             </a>
           </li>
           <li>
-              <a href="#project-list">
+              <a href="#project-list" className="project-icon">
                 <StickyNote2Icon fontSize="large"/>
               </a>
           </li>
           <li>
-            <a href="#Contact">
+            <a href="#Contact" className="contact-icon">
               <FontAwesomeIcon icon="envelope" />
             </a>
           </li>
