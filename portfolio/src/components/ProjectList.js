@@ -7,7 +7,7 @@ function ProjectList() {
     <Project project={project} key={index}/>
   ))
   return (
-    <div className="project-list">
+    <div id="project-list">
       <Typography variant="h3" gutterBottom component="div">
         Projects
       </Typography>
