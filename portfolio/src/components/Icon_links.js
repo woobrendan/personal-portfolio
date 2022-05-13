@@ -19,6 +19,7 @@ export default function IconLinks() {
               target="_blank" 
               rel="noreferrer"
               href="https://www.linkedin.com/in/woobrendan/"
+              className="linkedin-icon"
             >
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
@@ -28,17 +29,18 @@ export default function IconLinks() {
               target="_blank" 
               rel="noreferrer"
               href="https://github.com/woobrendan"
+              className="github-icon"
             >
               <FontAwesomeIcon icon={faGithub} />
             </a>
           </li>
           <li>
-              <a href="#About-container">
+              <a href="#About-container" className="about-icon">
                 <PersonIcon fontSize="large"/>
               </a>
           </li>
           <li>
-            <a href="#Experience">
+            <a href="#Experience" className="work-icon">
               <WorkHistoryIcon fontSize="large"/>
             </a>
           </li>
