@@ -5,6 +5,7 @@ import { library } from "@fortawesome/fontawesome-svg-core";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 import StickyNote2Icon from '@mui/icons-material/StickyNote2';
+import PersonIcon from '@mui/icons-material/Person';
 
 library.add(faEnvelope);
 
@@ -33,13 +34,9 @@ export default function IconLinks() {
             </a>
           </li>
           <li>
-            <a 
-              target="_blank" 
-              rel="noreferrer"
-              href="#Contact"
-            >
-              <FontAwesomeIcon icon="envelope" />
-            </a>
+              <a href="#About-container">
+                <PersonIcon fontSize="large"/>
+              </a>
           </li>
           <li>
             <a href="#Experience">
@@ -50,6 +47,11 @@ export default function IconLinks() {
               <a href="#project-list">
                 <StickyNote2Icon fontSize="large"/>
               </a>
+          </li>
+          <li>
+            <a href="#Contact">
+              <FontAwesomeIcon icon="envelope" />
+            </a>
           </li>
         </ul>
       </nav>
