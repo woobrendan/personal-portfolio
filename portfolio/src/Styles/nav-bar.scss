@@ -53,6 +53,21 @@
         transition: all 0.3s ease-out;
       }
     }
+    a.linkedin-icon {
+      &:after {
+        content: "LINKEDIN";
+      }
+    }
+    a.github-icon {
+      &:after {
+        content: "GITHUB";
+      }
+    }
+    a.about-icon {
+      &:after {
+        content: "ABOUT";
+      }
+    }
 
     a.contact-icon {
       &:after {
@@ -62,6 +77,11 @@
     a.project-icon {
       &:after {
         content: "PROJECTS";
+      }
+    }
+    a.work-icon {
+      &:after {
+        content: "EXPERIENCE";
       }
     }
     a.active {
