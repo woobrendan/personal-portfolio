@@ -18,10 +18,15 @@
     }
 
     .skill-info-list {
+      width: 50%;
+      margin: auto;
+      display: block;
       li {
         font-size: 17px;
         padding-bottom: 10px;
         text-align: left;
+        width: 50%;
+        margin: auto;
       }
     }
   }
