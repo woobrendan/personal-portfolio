@@ -70,6 +70,12 @@
       }
     }
 
+    a.skills-icon {
+      &:after {
+        content: "SKILLS";
+      }
+    }
+
     a.contact-icon {
       &:after {
         content: "CONTACT";
