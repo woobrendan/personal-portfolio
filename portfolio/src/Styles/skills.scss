@@ -15,5 +15,18 @@
     &:hover {
       background-color: rgba(101, 98, 98, 0.906) !important;
     }
+
+    .skill-info-list {
+      li {
+        font-size: 17px;
+        padding-bottom: 10px;
+        text-align: left;
+
+        span {
+          position: relative;
+          left: 20px;
+        }
+      }
+    }
   }
 }
