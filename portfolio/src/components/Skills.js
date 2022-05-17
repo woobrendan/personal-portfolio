@@ -8,7 +8,10 @@ import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 function Skills() {
   const mappedSkillList = (someArray) => {
     const skillList = someArray.map((skill, index) => (
-        <li key={index}><span><CheckCircleOutlineIcon />{skill}</span></li>
+        <li key={index}>
+          <span><CheckCircleOutlineIcon /></span>
+          <span>{skill}</span>
+        </li>
     ))
     return skillList;
   }
