@@ -5,6 +5,7 @@ import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import WorkHistoryIcon from '@mui/icons-material/WorkHistory';
 import StickyNote2Icon from '@mui/icons-material/StickyNote2';
 import PersonIcon from '@mui/icons-material/Person';
+import ConstructionIcon from '@mui/icons-material/Construction';
 
 library.add(faEnvelope);
 
@@ -37,6 +38,11 @@ export default function IconLinks() {
           <li>
               <a href="#About-container" className="about-icon">
                 <PersonIcon fontSize="large"/>
+              </a>
+          </li>
+          <li>
+              <a href="#skills-list" className="skills-icon">
+                <ConstructionIcon fontSize="large"/>
               </a>
           </li>
           <li>
