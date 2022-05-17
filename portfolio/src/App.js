@@ -3,6 +3,7 @@ import AboutMe from './components/About';
 import Experience from './components/experience';
 import Sidebar from './components/Sidebar';
 import ProjectList from './components/ProjectList';
+import Skills from './components/Skills';
 
 function App() {
   return (
@@ -11,6 +12,7 @@ function App() {
       <h3>Full Stack Developer</h3>
       <Sidebar />
       <AboutMe />
+      <Skills />
       <Experience />
       <ProjectList />
       <div id="Contact">
