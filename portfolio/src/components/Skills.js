@@ -12,7 +12,7 @@ function Skills() {
   }
 
   const mappedSkills = skills.map((skill, index) => (
-    <Card >
+    <Card key={index}>
     <CardContent>
       <Typography gutterBottom variant="h5" component="div">
         {skill.title}
