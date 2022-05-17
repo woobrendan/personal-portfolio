@@ -1,7 +1,7 @@
 export const skills = [
   {
     title: "Languages", 
-    list: ["JavaScript", "Ruby", "HTML", "CSS", "SQL"]
+    info: ["JavaScript", "Ruby", "HTML", "CSS", "SQL"]
   },
   {
     title: "Frameworks/Libraries", 
