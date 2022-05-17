@@ -9,8 +9,7 @@ function Skills() {
   const mappedSkillList = (someArray) => {
     const skillList = someArray.map((skill, index) => (
         <li key={index}>
-          <span><CheckCircleOutlineIcon /></span>
-          <span>{skill}</span>
+          <>{skill}</>
         </li>
     ))
     return skillList;
