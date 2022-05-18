@@ -3,7 +3,6 @@ import Card from '@mui/material/Card';
 import CardContent from '@mui/material/CardContent';
 import { skills } from "./skill_info";
 import '../Styles/skills.scss'
-import CheckCircleOutlineIcon from '@mui/icons-material/CheckCircleOutline';
 
 function Skills() {
   const mappedSkillList = (someArray) => {
@@ -27,6 +26,7 @@ function Skills() {
     </CardContent>
   </Card>
   ))
+  
   return (
     <div id="skills-list">
       <Typography variant="h3" gutterBottom component="div">
