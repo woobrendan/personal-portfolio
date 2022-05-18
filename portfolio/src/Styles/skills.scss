@@ -28,6 +28,10 @@
         width: 50%;
         margin: auto;
         list-style-image: url("../images/circle-check-solid.svg");
+
+        &::marker {
+          font-size: 50px;
+        }
       }
     }
   }
