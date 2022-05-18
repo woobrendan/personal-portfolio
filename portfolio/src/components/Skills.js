@@ -8,7 +8,7 @@ function Skills() {
   const mappedSkillList = (someArray) => {
     const skillList = someArray.map((skill, index) => (
         <li key={index}>
-          <>{skill}</>
+          <span>{skill}</span>
         </li>
     ))
     return skillList;
@@ -16,17 +16,17 @@ function Skills() {
 
   const mappedSkills = skills.map((skill, index) => (
     <Card key={index}>
-    <CardContent>
-      <Typography gutterBottom variant="h4" component="div">
-        {skill.title}
-      </Typography>
-      <ul className="skill-info-list">
-        {mappedSkillList(skill.info)}
-      </ul>
-    </CardContent>
-  </Card>
-  ))
-  
+      <CardContent>
+        <Typography gutterBottom variant="h4" component="div">
+          {skill.title}
+        </Typography>
+        <ul className="skill-info-list">
+          {mappedSkillList(skill.info)}
+        </ul>
+      </CardContent>
+    </Card>
+  ));
+
   return (
     <div id="skills-list">
       <Typography variant="h3" gutterBottom component="div">
