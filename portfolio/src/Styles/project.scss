@@ -21,6 +21,14 @@
         background: gold;
         color: black;
       }
+
+      .MuiButton-root {
+        &:hover {
+          color: black;
+          border-color: white;
+          background-color: gold !important;
+        }
+      }
     }
 
     .MuiPaper-root {
